@@ -1,0 +1,236 @@
+.Category_hover{
+  cursor: pointer;
+
+}
+.show_Categories{
+  cursor: pointer;
+}
+.show_Categories:hover{
+  font-size: 20px !important;
+}
+.image_io{
+  height: 240px !important;
+ 
+}
+
+/*======================================
+    Ads Grid CSS
+========================================*/
+.items-tab {
+  background: #fff;
+}
+
+.items-tab.custom-padding {
+  padding-top: 150px;
+}
+
+.items-tab .nav-tabs {
+  border-bottom: 2px solid #eee;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 30px !important;
+}
+
+.items-tab .nav {
+  display: inline-block !important;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  position: relative;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.items-tab .nav-tabs .nav-link {
+  display: inline-block !important;
+  background: transparent !important;
+  color: #081828;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 15px 40px;
+  border: none;
+  border-bottom: 2px solid transparent;
+  border-radius: 0;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  position: relative;
+  bottom: -1px;
+}
+
+.items-tab .nav-tabs .nav-link:hover {
+  color: #5830E0;
+}
+
+.items-tab .nav-tabs .nav-link.active {
+  color: #5830E0;
+  border: none;
+  border-bottom: 2px solid #5830E0;
+}
+
+.single-item-grid {
+  background: #f7f7f770;
+  border-radius: 6px;
+  overflow: hidden;
+  margin-top: 30px;
+  border: 1px solid #3333331a;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.single-item-grid:hover {
+  -webkit-box-shadow: 0px 10px 30px #00000010;
+          box-shadow: 0px 10px 30px #00000010;
+  background: #fff;
+}
+
+.single-item-grid .image {
+  overflow: hidden;
+  position: relative;
+}
+
+.single-item-grid .image a {
+  width: 100%;
+}
+
+.single-item-grid .image img {
+  width: 100%;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.single-item-grid .image .cross-badge {
+  position: absolute;
+  top: 0px;
+  left: 15px;
+}
+
+.single-item-grid .image .cross-badge {
+  width: 25px;
+  height: 35px;
+  font-size: 14px;
+  line-height: 30px;
+  color: #fff;
+  text-align: center;
+  background: #5830E0;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  -webkit-clip-path: polygon(0 0, 53% 0, 100% 0, 100% 100%, 50% 85%, 0 100%);
+  clip-path: polygon(0 0, 53% 0, 100% 0, 100% 100%, 50% 85%, 0 100%);
+}
+
+.single-item-grid .image .flat-badge {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+.single-item-grid .image .flat-badge {
+  color: #fff;
+  padding: 2px 8px;
+  border-radius: 3px;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 0.3px;
+  text-transform: capitalize;
+}
+
+.single-item-grid .image .sale {
+  background: #dc3545;
+}
+
+.single-item-grid .image .rent {
+  background: #03a70c;
+}
+
+.single-item-grid:hover .image img {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.single-item-grid .content {
+  padding: 20px 25px 20px 20px;
+}
+
+.single-item-grid .content .tag {
+  font-size: 14px;
+  font-weight: 400;
+  color: #888;
+  font-weight: 500;
+}
+
+.single-item-grid .content .tag:hover {
+  color: #5830E0;
+}
+
+.single-item-grid .content .title {
+  border-top: 1px solid #eee;
+  margin-top: 10px;
+  padding-top: 10px;
+}
+
+.single-item-grid .content .title a {
+  font-size: 18px;
+  font-weight: 600;
+  color: #081828;
+}
+
+.single-item-grid .content .title a:hover {
+  color: #5830E0;
+}
+
+.single-item-grid .content .location {
+  margin-top: 10px;
+}
+
+.single-item-grid .content .location a {
+  color: #888;
+}
+
+.single-item-grid .content .location a i {
+  color: #5830E0;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.single-item-grid .content .location a:hover {
+  color: #5830E0;
+}
+
+.single-item-grid .content .info {
+  /* overflow: hidden; */
+  margin-top: 15px;
+}
+
+.single-item-grid .content .info .price {
+  font-size: 18px;
+  font-weight: 600;
+  color: #5830E0;
+  float: left;
+  position: relative;
+  top: 5px;
+}
+
+.single-item-grid .content .info .like {
+  float: right;
+}
+
+.single-item-grid .content .info .like a {
+  color: #888;
+  font-size: 14px;
+  height: 35px;
+  width: 35px;
+  line-height: 35px;
+  text-align: center;
+  display: block;
+  border: 1px solid #eee;
+  border-radius: 50%;
+}
+
+.single-item-grid .content .info .like a:hover {
+  color: #fff;
+  background: #5830E0;
+  border-color: transparent;
+}
